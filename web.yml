@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  remote_user: Jeroom
+  vars:
+  tasks:
+  - name: create ansible user
+    user:
+      name: ansible
+      state: present
+
